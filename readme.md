@@ -1,3 +1,7 @@
+# References
+- https://github.com/qmk/qmk_firmware/blob/eab2b8faa0/users/twschum/xtonhasvim.c
+- https://github.com/peppy/qmk_firmware/blob/701ea6ac61c98aa15b1a2df94b3a505708a2d5d3/keyboards/planck/keymaps/ppy/xtonhasvim.c
+
 # Josh's Notes
 ## How to compile firmware
 - `git clone [this repo]`
