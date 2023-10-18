@@ -1,5 +1,6 @@
 # Layers of Testing/Building
 1. See how many layers we can have, ideally 5-6
+   2. Via is a prank, you can have as many layers as you like via QMK...
 2. Have each mod layers do something else, as the keycron might not support it
 3. Add vim mode based on ppy
 
