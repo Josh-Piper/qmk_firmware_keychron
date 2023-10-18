@@ -1,3 +1,8 @@
+# Layers of Testing/Building
+1. See how many layers we can have, ideally 5-6
+2. Have each mod layers do something else, as the keycron might not support it
+3. Add vim mode based on ppy
+
 # References
 - https://github.com/qmk/qmk_firmware/blob/eab2b8faa0/users/twschum/xtonhasvim.c
 - https://github.com/peppy/qmk_firmware/blob/701ea6ac61c98aa15b1a2df94b3a505708a2d5d3/keyboards/planck/keymaps/ppy/xtonhasvim.c
