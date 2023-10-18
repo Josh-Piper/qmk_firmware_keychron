@@ -1,3 +1,32 @@
+# Josh's Notes
+## How to compile firmware
+- `git clone [this repo]`
+- `git fetch [this repo]`
+- `git checkout bluetooth_playground`
+- `make git-submodule`
+- `qmk compile -kb keychron/k3_pro/ansi/rgb -km via`
+  - or just `qmk compile` if you have set defaults
+
+## How to upload firmware
+- Install QmkToolbox
+- Put keyboard in bootloader mode
+  - For the K3 Pro take off the spacebar
+  - Turn the K3 Pro off using the toggle
+  - Hold the reset button under the spacebar and then turn it on
+  - QmkToolbox should now recognise the keyboard
+- Use QmkToolbox to upload the firmware which is located in the qmk_firmware folder
+ 
+# Sensitive Defaults
+## Settings a default keyboard
+Often only have 1 keyboard
+- `qmk list-keyboards | grep [k3_pro]`
+- `qmk config user.keyboard=keychron/k3_pro/ansi/rgb`
+- `qmk config user.keymap=[github username]` to create a new keymap default
+- `qmk new-keymap` to create a new keymap default
+
+To compile using the new keymap go
+- `qmk compile -kb keychron/k3_pro/ansi/rgb -km [joshpiper/github username]`
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)

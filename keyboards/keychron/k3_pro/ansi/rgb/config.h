@@ -16,6 +16,11 @@
 
 #pragma once
 
+#define MK_KINETIC_SPEED
+#define MOUSEKEY_INITIAL_SPEED 20
+#define MOUSEKEY_MAX_SPEED 35
+#define MK_VARIANT MK_TYPE_KINETIC
+
 #ifdef RGB_MATRIX_ENABLE
 /* RGB Matrix driver configuration */
 #    define DRIVER_COUNT 2
